@@ -12,6 +12,10 @@
       "location": "San Antonio",
       "arrivalDate": "2026-10-05",
       "departureDate": "2026-10-09",
+      "transportation": {
+        "mode":  "walking",
+        "cost": "free"
+      },
       "activities": [
         {
           "title": "San Antonio Zoo",
@@ -23,6 +27,7 @@
         }
       ]
     },
+    
     {
       "location": "Austin",
       "arrivalDate": "2026-10-10",
@@ -35,7 +40,26 @@
         {
           "title": "Austin trail of lights",
           "time": "7:30 PM"
+        },
+         {
+      "location": "Dallas",
+      "arrivalDate": "2026-10-13",
+      "departureDate": "2026-10-18",
+      "transportation": {
+        "mode":  "cab",
+        "cost": "10.50"
+      },
+      "activities": [
+        {
+          "title": "Dallas Zoo",
+          "time": "10:01 AM"
+        },
+        {
+          "title": "Park",
+          "time": "7:01 PM"
         }
+      ]
+    }
       ]
     }
   ]
